@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}

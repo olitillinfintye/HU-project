@@ -1,0 +1,957 @@
+{
+	"info": {
+		"_postman_id": "e7b035d8-b1a7-4a2e-b3ed-f678ed950e71",
+		"name": "astu Interactive feed API Hagrie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admin Adding School",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"school of power and control engineering\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/addSchool",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Adding nn department",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"computer science and engineering\",\r\n    \"schoolId\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/addDep",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"addDep"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get staff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/getStaff",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"getStaff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get all data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/getAllData",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"getAllData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Get all student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/get",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Adding Category Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"All\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/addCategory",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"addCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Search Post ?????/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/searchPost?keyword=love",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"searchPost"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "love"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Approve Account",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"staffId\" : \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/approveAcc",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"approveAcc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin ban Account",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"staffId\" : \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/banAcc",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"banAcc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Delete Post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"postId\" : \"9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/admin/deletePost",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"admin",
+						"deletePost"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "14",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "like post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"postId\":\"2\",\r\n    \"liked_by_id\" : \"3\",\r\n    \"liked_by_type\":\"student\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/likePost",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"likePost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "See like",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/seeLike",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"seeLike"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get department",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/getDep",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"getDep"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullname",
+							"value": "Milkias solomon",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "abr@abc.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/1504496.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/stReg",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"stReg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Add post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "astu bbb if",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "and ethiopiassas ss",
+							"type": "text"
+						},
+						{
+							"key": "eventLocation",
+							"value": "Addis abbbaba  aa",
+							"type": "text"
+						},
+						{
+							"key": "staffId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "rsvp",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/Screenshots/Screenshot (47).png"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/posts",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpost all for admin and staff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/viewPost",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"viewPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpost for student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/viewPost?depName=ECE",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"viewPost"
+					],
+					"query": [
+						{
+							"key": "depName",
+							"value": "ECE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpost for satff which they post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/myPost?staffId=1",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"myPost"
+					],
+					"query": [
+						{
+							"key": "staffId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Update post",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\" : \"hello every body\",\r\n    \"eventLocation\" : \"jima\",\r\n    \"postId\" : \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/updatePost",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"updatePost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Delete Post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"postId\" : \"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/deletePost",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"deletePost"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "9",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Delete Chat",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"creatorId\":\"1\",\r\n    \"chatId\":\"11\",\r\n    \"creatorType\":\"staff\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/staff/deleteChat",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"staff",
+						"deleteChat"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "9",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student Registeriation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullname",
+							"value": "yohanishhsdfs",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "abragdaghhasa",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "aaaaann",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "depId",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/register",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "creating chat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"topic\":\"I love you dd mmm my ethiopia\",\r\n    \"categoryId\":\"8\",\r\n    \"creatorType\":\"Staff\",\r\n    \"creatorId\":\"5\",\r\n    \"restrictedMode\":\"0\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/chat",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sending message",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\" : \"go daddy\",\r\n    \"userId\" : \"1\",\r\n    \"senderType\": \"staff\",\r\n    \"chatId\": \"5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/conv",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"conv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getting chat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/getchat?userType=staff",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"getchat"
+					],
+					"query": [
+						{
+							"key": "userType",
+							"value": "staff"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checking Chat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/checkchat?chatId=8&userType=student",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"checkchat"
+					],
+					"query": [
+						{
+							"key": "chatId",
+							"value": "8"
+						},
+						{
+							"key": "userType",
+							"value": "student"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get messages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/student/getconv?chatId=5",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"student",
+						"getconv"
+					],
+					"query": [
+						{
+							"key": "chatId",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Current User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/user",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"loginAs\":\"student\",\r\n    \"email\":\"aysanew@gmail.com\",\r\n    \"password\":\"aysanew\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astuifback.hagrie.com/api/login",
+					"protocol": "https",
+					"host": [
+						"astuifback",
+						"hagrie",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,161 @@
+.mainAdmin {
+  display: flex;
+}
+
+.adminSidebar {
+  width: 250px;
+  background-color: #f2f2f2;
+}
+
+.adminContent {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.rectangle {
+  width: 200px;
+  height: 150px;
+  background-color: #6152e6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.rectangle:hover {
+  background-color: #e0e0e0;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.additional-info {
+  font-size: 12px;
+  color: #d4e4d6;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #606835;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1B6B93;
+  color: #A2FF86;
+  /* Add the desired background color here */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #40a3c2;
+  border-left: 1px solid #40a3c2;
+  border-right: 1px solid #40a3c2;
+}
+
+th {
+  background-color: #80d8db;
+}
+
+tbody tr:hover {
+  background-color: #281119;
+}
+
+.data-table {
+  margin-top: 20px;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #4FC0D0;
+  border-left: 1px solid #4FC0D0;
+  border-right: 1px solid #4FC0D0;
+}
+
+.data-table th {
+  background-color: #164B60;
+}
+
+.data-table .pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.data-table .pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.data-table .pagination button.active {
+  background-color: #f2f2f2;
+}
+
+.data-table .back-button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #ab2828;
+  border: 1px solid #ddd;
+  color: #000000;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 0 4px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #47bf17;
+}
+
+.pagination button:not(.active):hover {
+  background-color: #f5f5f5;
+}

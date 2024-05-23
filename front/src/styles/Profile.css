@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.account-setting{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+
+.account-setup {
+    position: absolute;
+    left: 150px;
+    max-width: 700px;
+    width: 100%;
+    padding: 50px;
+    text-align: left;
+    border: 1px solid #ddd;
+
+    border-radius: 29px;
+    background: #f5f5f5;
+    box-shadow: 11px 18px 30px -10px rgba(0,0,0,0.79);
+}
+
+.account-setup .title {
+    position: relative;
+    font-size: 1.4rem;
+    color: #6d6d6d;
+    font-weight: 600;
+}
+
+
+.account-setup .account-update {
+    margin-top: 30px;
+}
+
+
+
+/* Reg Input Box */
+
+.account-update .account-div {
+    position: relative;
+    /* width: 100%; */
+    margin-top: 20px;
+}
+.account-update label {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 600;
+}
+.account-update .account-div input {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.account-update input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    border: 2px solid #7abaff;
+}
+
+
+
+
+/* PASS + PICTURE COMBO */
+
+.account-update .form-pair{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.account-update .pass-pic-box{
+    width: 40%;
+    margin-top: 20px;
+}
+
+
+.account-update .form-pair input {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+
+
+/* -- UPload Image -- */
+
+.account-div-box{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.account-div-box [type="file"]{
+    /* opacity: 0; */
+    cursor: pointer;
+    width: 160px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    opacity: 0.1;
+}
+
+.account-div-box .upload{
+    position: absolute;
+    top: 0px;
+    /* left: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #475e78;
+    background-color: #475e78;
+    border-radius: 20px;
+    color: #ededed;
+    padding: 9px 12px;
+    cursor: pointer;
+}
+
+.account-div-box .image .icon{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    /* top: 2px; */
+}
+
+
+.account-div-box .image{
+    position: absolute;
+    left: 290px;
+    bottom: 200px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 9px 1px rgba(104,54,54,0.63);
+}
+
+
+.account-div-box .staff-img{
+    position: absolute;
+    left: 290px;
+    top: -10px;
+}
+
+
+
+
+
+
+/* -- Preference Add */
+
+.account-update .Preference{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.account-update .Preference .add{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #454545;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.account-update .add-message{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(6, 126, 6);
+    opacity: 0.8;
+    padding-left: 3px;
+}
+.account-update .add-error{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(158, 50, 42);
+    opacity: 0.8;
+    padding-left: 3px;
+}
+
+
+
+/* --  -- */
+
+
+.address :where(input, .select-box) {
+    margin-top: 15px;
+}
+
+.account-update select {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+
+
+.account-update select:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    border: 2px solid #7abaff;
+}
+
+
+.account-update .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.account-update .reg-button {
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: #2377d2;
+}
+.account-update .reg-button:hover {
+    background-color: #1b64b2;
+}
+
+
+
+
+.account-setting .password{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #05a88d;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+
+
+/* ============ SECOND BOX ================ */
+
+
+
+.account-setting .account-card{
+    position: relative;
+    right: -400px;
+    padding-bottom: 20px;
+    width: 350px;
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+    overflow: hidden;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.account-card .account-bgr{
+    height: 170px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.account-card .account-user-img{
+    position: absolute;
+    top: 100px;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.account-card .card-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+
+.account-card .card-banner-space{
+    height: 80px;
+}
+
+.account-card .card-banner-big{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 8px;
+}
+
+.account-card .card-banner-small{
+    font-size: 14px;
+    color: #A0A0A0;
+    margin-bottom: 17px;
+}
+
+
+.account-card .card-banner-tag{
+    width: 100%;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #fbce1b;
+    border: none;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+.account-card .card-banner-text{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7d7d7d;
+}
+
+.account-card .card-banner-options{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top:  10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.account-card .card-banner-options span{
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    opacity: 0.95;
+}
+
+.account-card .card-banner-options .close{
+    font-size: 15px;
+    font-weight: 600;
+    color: #bbbbbb;
+    cursor: pointer;
+    padding: 0px 3px;
+}
+
+.account-card .card-banner-options .close:hover{
+    background-color: #c23b48;
+    color: #d1d1d1;
+}
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+
+@media screen and (max-width: 1150px) {
+    .account-setting{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 50px;
+        padding: 10px 0px;
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    
+    .account-setup {
+        position: relative;
+        left: 0px;
+        max-width: 700px;
+    }
+
+    .account-card{
+        position: relative;
+        /* right: 0px; */
+        left: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 780px) {
+    .account-setting {
+        padding: 0px 40px;
+        padding-top: 30px;
+        position: relative;
+        left: 50px;
+    }
+
+    .account-div-box .image{
+        position: absolute;
+        left: 190px;
+        bottom: 200px;
+        height: 70px;
+        width: 70px;
+    }
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .account-setup {
+        padding: 40px 30px;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 500px) {
+    .account-update .column {
+        flex-wrap: wrap;
+    }
+
+} */

@@ -1,0 +1,1505 @@
+{
+	"info": {
+		"_postman_id": "302b2bca-4fc6-406e-86af-d281ab3fb396",
+		"name": "astu Interactive feed API LocalHost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admin Adding School",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"school of power and control engineering\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/addSchool",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Adding nn department",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"computer science and engineering\",\r\n    \"schoolId\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/addDep",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"addDep"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get staff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/admin/getStaff",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"getStaff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Get all data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/admin/getAllData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"getAllData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Get all student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/admin/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Adding Category Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"All\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/addCategory",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"addCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Search Post ?????/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/admin/searchPost?keyword=love",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"searchPost"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "love"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Approve Account",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"staffId\" : \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/approveAcc",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"approveAcc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin ban Account",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"staffId\" : \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/banAcc",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"banAcc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Delete Post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"postId\" : \"9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/deletePost",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"deletePost"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "9",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "like post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"postId\":\"8\",\r\n    \"liked_by_id\" : \"3\",\r\n    \"liked_by_type\":\"student\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/likePost",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"likePost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "See like",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/seeLike",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"seeLike"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get department",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getDep",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getDep"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullname",
+							"value": "Milkias solomon",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "abr@abc.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/1504496.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/stReg",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"stReg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Add post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "astu bbb if",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "hello d hh  hello bb again mm The world we inhabit is a complex and ever-evolving place, filled with limitless potential for exploration and discovery. From the vast expanse of the universe to the intricate workings of the astuman mind and body, there is an abundance of wonders to uncover. astumans have sought to comprehend the world around them throughout history, striving to understand their place in it and establish meaning and purpose in their lives. From the earliest groups of astunter-gatherers to the most advanced technological societies, people have developed a myriad of customs, beliefs, and methods to navigate the challenges of their existence and search for happiness and fulfillment.Throughout history, astumans have faced countless obstacles and setbacks, including wars, famines, diseases, and natural disasters. Yet, through perseverance and determination, they have continued to progress and flourish, always aiming to create a brighter tomorrow for themselves and future generations. Today, we face unprecedented global challenges like climate change, inequality, and the threat of nuclear war. However, we also have unparalleled opportunities to cultivate a more equitable, sustainable, and harmonious world, harnessing the strength of science, technology, and astuman collaboration.In recent years, technological advancements have facilitated a rapid acceleration of progress in many fields, from medicine to communications to transportation. However, these advancements have also brought new challenges and concerns, such as the impact of automation on job markets and the potential consequences of unchecked artificial intelligence. Moreover, many global challenges, such as climate change and inequality, require coordinated efforts and cooperation at the international level to address.In the face of these challenges, it is critical that we work together to create a more just and sustainable world. This will require investment in education and scientific research, as well as greater collaboration and communication among nations. It will also require a commitment to protecting the environment, prioritizing social justice, and promoting peace. By working together, we can build a brighter future for all, one in which the wonders of the world are preserved, and astuman potential is fully realized.",
+							"type": "text"
+						},
+						{
+							"key": "eventLocation",
+							"value": "Addis abbbaba  aadd",
+							"type": "text"
+						},
+						{
+							"key": "staffId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "rsvp",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/110-1104934_high-quality-cool-desktop-backgrounds.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/post",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Update post",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "astu bbb if",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "hello d hh  hello bb again mm The world we inhabit is a complex and ever-evolving place, filled with limitless potential for exploration and discovery. From the vast expanse of the universe to the intricate workings of the astuman mind and body, there is an abundance of wonders to uncover. astumans have sought to comprehend the world around them throughout history, striving to understand their place in it and establish meaning and purpose in their lives. From the earliest groups of astunter-gatherers to the most advanced technological societies, people have developed a myriad of customs, beliefs, and methods to navigate the challenges of their existence and search for happiness and fulfillment.Throughout history, astumans have faced countless obstacles and setbacks, including wars, famines, diseases, and natural disasters. Yet, through perseverance and determination, they have continued to progress and flourish, always aiming to create a brighter tomorrow for themselves and future generations. Today, we face unprecedented global challenges like climate change, inequality, and the threat of nuclear war. However, we also have unparalleled opportunities to cultivate a more equitable, sustainable, and harmonious world, harnessing the strength of science, technology, and astuman collaboration.In recent years, technological advancements have facilitated a rapid acceleration of progress in many fields, from medicine to communications to transportation. However, these advancements have also brought new challenges and concerns, such as the impact of automation on job markets and the potential consequences of unchecked artificial intelligence. Moreover, many global challenges, such as climate change and inequality, require coordinated efforts and cooperation at the international level to address.In the face of these challenges, it is critical that we work together to create a more just and sustainable world. This will require investment in education and scientific research, as well as greater collaboration and communication among nations. It will also require a commitment to protecting the environment, prioritizing social justice, and promoting peace. By working together, we can build a brighter future for all, one in which the wonders of the world are preserved, and astuman potential is fully realized.",
+							"type": "text"
+						},
+						{
+							"key": "eventLocation",
+							"value": "Addis abbbaba  aadd",
+							"type": "text"
+						},
+						{
+							"key": "categoryId",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/Screenshots/Screenshot (9).png"
+						},
+						{
+							"key": "postId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "staffId",
+							"value": "1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/updatePost",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"updatePost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpost all for admin and staff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/viewPost?keyword=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"viewPost"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpost for student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/student/viewPost?depName=CSE&keyword=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"viewPost"
+					],
+					"query": [
+						{
+							"key": "depName",
+							"value": "CSE"
+						},
+						{
+							"key": "keyword",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpost for satff which they post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/myPost?staffId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"myPost"
+					],
+					"query": [
+						{
+							"key": "staffId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Delete Post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"postId\" : \"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/deletePost",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"deletePost"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "9",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Delete Chat",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"creatorId\":\"1\",\r\n    \"chatId\":\"11\",\r\n    \"creatorType\":\"staff\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/deleteChat",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"deleteChat"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "9",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student Registeriation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullname",
+							"value": "yohanis",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "seifegabriel9@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "aaaaa",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/110-1104934_high-quality-cool-desktop-backgrounds.jpg"
+						},
+						{
+							"key": "year",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "depId",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student profile Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullname",
+							"value": "yohanis",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/Screenshots/Screenshot (9).png"
+						},
+						{
+							"key": "year",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "studentId",
+							"value": "3",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/studUpdate",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"studUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "staff profile Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullname",
+							"value": "yohanis",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/C:/Users/Abraham Mekuria/Pictures/Screenshots/Screenshot (9).png"
+						},
+						{
+							"key": "staffId",
+							"value": "3",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/staffUpdate",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"staffUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "creating chat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"topic\":\"I love you dd mmm my ethiopia\",\r\n    \"categoryId\":\"8\",\r\n    \"creatorType\":\"Staff\",\r\n    \"creatorId\":\"5\",\r\n    \"restrictedMode\":\"0\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/chat",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getting chat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/student/getchat?userType=Staff&userId=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"getchat"
+					],
+					"query": [
+						{
+							"key": "userType",
+							"value": "Staff"
+						},
+						{
+							"key": "userId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checking Chat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/student/checkchat?chatId=8&userType=student",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"checkchat"
+					],
+					"query": [
+						{
+							"key": "chatId",
+							"value": "8"
+						},
+						{
+							"key": "userType",
+							"value": "student"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sending message",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\" : \"go daddy\",\r\n    \"userId\" : \"1\",\r\n    \"senderType\": \"staff\",\r\n    \"chatId\": \"5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/conv",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"conv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get messages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/student/getconv?chatId=2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"getconv"
+					],
+					"query": [
+						{
+							"key": "chatId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Current User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/user",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Current User without token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/currentUser?userId=1&userType=Staff",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"currentUser"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "1"
+						},
+						{
+							"key": "userType",
+							"value": "Staff"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"loginAs\":\"student\",\r\n    \"email\":\"bereket@gmail.com\",\r\n    \"password\":\"bereket\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Create option",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryId\":\"8\",\r\n    \"userId\":\"1\",\r\n    \"userType\":\"Student\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/createOpt",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"createOpt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff Get option",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getOpt?userType=Staff&userId=2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getOpt"
+					],
+					"query": [
+						{
+							"key": "userType",
+							"value": "Staff"
+						},
+						{
+							"key": "userId",
+							"value": "2"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Staff delete option",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/deleteOpt?userId=2&userType=Staff&optionId=18",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"deleteOpt"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "2"
+						},
+						{
+							"key": "userType",
+							"value": "Staff"
+						},
+						{
+							"key": "optionId",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Dep",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getDep",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getDep"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get School",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getSchool",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getCat",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getCat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get rsvp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getRsvp?userType=Student&userId=22",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getRsvp"
+					],
+					"query": [
+						{
+							"key": "userType",
+							"value": "Student"
+						},
+						{
+							"key": "userId",
+							"value": "22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put status of rsvp",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rsvpData\": [\r\n        {\r\n            \"postId\": 11,\r\n            \"text\": \"You have received a notification for jhjghh\"\r\n        },\r\n        {\r\n            \"postId\": 13,\r\n            \"text\": \"You have received a notification for null\"\r\n        },\r\n        {\r\n            \"postId\": 14,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 15,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 16,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 17,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 18,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 19,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 20,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 21,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 22,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        },\r\n        {\r\n            \"postId\": 24,\r\n            \"text\": \"You have received a notification for astu bbb if\"\r\n        }\r\n    ],\r\n    \"userType\":\"Student\",\r\n    \"userId\":\"3\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/staff/putRsvp",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"putRsvp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get my rsvp for post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/getMyRsvp?staffId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"getMyRsvp"
+					],
+					"query": [
+						{
+							"key": "staffId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search post for guest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/admin/searchPost?keyword=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"searchPost"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search Staff",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/searchStaff?keyword=abel",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"searchStaff"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "abel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search Student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/staff/searchStudent?keyword=soca",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"staff",
+						"searchStudent"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "soca"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Verification for Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"seifegabriel9@gmail.com\",\r\n    \"userType\":\"Student\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/getVerification",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"getVerification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forgot password for all",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"seifegabriel9@gmail.com\",\r\n    \"userType\":\"Staff\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/forgetPassword",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"forgetPassword"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change password for staff and student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"seifegabriel9@gmail.com\",\r\n    \"userType\":\"Admin\",\r\n    \"oldPassword\":\"sfsafasffsd\",\r\n    \"newPassword\":\"seifegabriel9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/student/changePassword",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"changePassword"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

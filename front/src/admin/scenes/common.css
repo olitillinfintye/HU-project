@@ -1,0 +1,18 @@
+.mainAdmin {
+    display: flex;
+}
+
+.adminsidebar {
+    flex: 0 0 auto;
+    /* Sidebar will not grow or shrink */
+}
+
+.adminContent {
+    flex: 1 1 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #13cabb;
+    /* Content will grow and shrink to fill remaining space */
+}

@@ -1,0 +1,91 @@
+.ban-approve-container {
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.ban-approve-container h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th:first-child,
+table td:first-child {
+  width: 10%;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 30%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 30%;
+}
+
+table th:nth-child(4),
+table td:nth-child(4),
+table th:nth-child(5),
+table td:nth-child(5) {
+  width: 15%;
+  text-align: center;
+}
+
+.approve-btn,
+.ban-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Add margin between the buttons */
+.approve-btn+.ban-btn {
+  margin-left: 10px;
+}
+
+
+.approve-btn {
+  background-color: #3cb371;
+}
+
+.ban-btn {
+  background-color: #ff4500;
+}
+
+.error,
+.success {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.error {
+  background-color: #ffcccc;
+  color: #ff0000;
+}
+
+.success {
+  background-color: #ccffcc;
+  color: #006400;
+}

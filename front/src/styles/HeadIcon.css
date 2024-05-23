@@ -1,0 +1,12 @@
+
+.HeadIcon .profile-img{
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	border: 2px solid rgb(230, 227, 227);
+	box-shadow: -1px 3px 14px -1px rgba(0,0,0,0.65);
+	position: absolute;
+    top: 20px;
+	right: 60px;
+	cursor: pointer;
+}

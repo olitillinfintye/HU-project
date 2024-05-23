@@ -1,0 +1,81 @@
+.add-category-container {
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.add-category-container h2 {
+  margin-top: 30;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #444;
+}
+
+.add-category-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.add-category-container label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.add-category-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-category-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4285f4;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-category-container button[type="submit"]:hover {
+  background-color: #3367d6;
+}
+
+.add-category-container p {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.add-category-container p.error {
+  background-color: #f44336;
+}
+
+.add-category-container p.success {
+  background-color: #4caf50;
+}

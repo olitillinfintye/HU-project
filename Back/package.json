@@ -1,0 +1,39 @@
+{
+  "name": "astuIF",
+  "version": "1.0.0",
+  "author": "abraham mekuria",
+  "description": "A student interactive feed system",
+  "main": "server.js",
+  "scripts": {
+    "migrate": "node models/schema",
+    "seedmmm": "node models/seed",
+    "testdb": "node config/dbConfig",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "bot": "nodemon ../Bot_handler/bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.19.2",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.5",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.6.0"
+  }
+}
