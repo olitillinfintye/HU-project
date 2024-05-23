@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import ip from '../helpers/Config.js';
 
 import login_graphics from "../assets/login-graphic.png";
-import astu_logo from "../assets/badges/AstuFeed_badge.png";
+import astu_logo from "../assets/badges/hu_badge.png";
 import { RiUploadCloud2Fill } from "react-icons/ri";
 
 function Register() {
@@ -165,7 +165,7 @@ function Register() {
                 <img src={login_graphics} className='register-graphics' alt="login-graphics"/>
                 <div className='register-graphics-word'>
                     <p className='register-graphics-title'>Create. Communicate. Learn</p>
-                    <p className='register-graphics-text'>Welcome to astu Interactive Feed</p>
+                    <p className='register-graphics-text'>Welcome to HU Interactive Feed</p>
                 </div>
             </div>
 
@@ -348,7 +348,7 @@ function Register() {
             </div>
 
             <div className='closing-tag'>
-                Copyright Ⓒ 2023 astuFeed by astu Design inc. All rights reserved
+                Copyright Ⓒ 2024 Harambee University by Nahi. All rights reserved
             </div>
         </div>
 

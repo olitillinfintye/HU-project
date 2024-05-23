@@ -20,7 +20,7 @@ import { RiUploadCloud2Fill } from "react-icons/ri";
 
 
 
-import logo from "../assets/logo1.png";
+import logo from "../assets/hu_badge.png";
 import Student_badge from "../assets/badges/Student_badge.png";
 import Staff_badge from "../assets/badges/Staff_badge.png";
 import user_avatar from '../assets/user_avatar.png';

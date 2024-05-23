@@ -10,7 +10,7 @@ import { MdArrowForwardIos, MdDashboardCustomize, MdVerified } from "react-icons
 import { IoLogOut } from "react-icons/io5";
 
 
-import logo from "../assets/logo2.png";
+import logo from "../assets/logo1.png";
 import profile_img from "../assets/img_avatar.png";
 import user_avatar from '../assets/user_avatar.png';
 import ip from '../helpers/Config.js';

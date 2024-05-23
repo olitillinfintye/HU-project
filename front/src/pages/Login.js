@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {useNavigate, Link} from 'react-router-dom';
 import "../styles/login.css";
-import astu_logo from "../assets/badges/AstuFeed_badge.png";
+import astu_logo from "../assets/badges/hu_badge.png";
 import login_graphics from "../assets/login-graphic.png";
 import { BiShowAlt, BiHide } from "react-icons/bi";
 
@@ -72,7 +72,7 @@ function Login() {
         <img src={login_graphics} className='login-graphics' alt="login-graphics"/>
         <div className='login-graphics-word'>
             <p className='login-graphics-title'>Create. Communicate. Learn</p>
-            <p className='login-graphics-text'>Welcome to astu Interactive Feed</p>
+            <p className='login-graphics-text'>Welcome to HU Interactive Feed</p>
         </div>
     </div>
 
@@ -108,7 +108,7 @@ function Login() {
 </div>
 
             <div className='closing-tag'>
-                Copyright Ⓒ 2023 astuFeed by astu Design inc. All rights reserved
+                Copyright Ⓒ 2024 Harambee University by Nahi. All rights reserved
             </div>
 
         </div>

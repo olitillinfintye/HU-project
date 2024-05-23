@@ -267,7 +267,7 @@ const seedData = {
             schoolId: 1
         },
         {
-            name:"Water Resource Engineering",
+            name:"BUsiness Administration",
             schoolId: 1
         },
         {

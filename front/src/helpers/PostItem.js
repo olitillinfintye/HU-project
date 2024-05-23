@@ -20,7 +20,7 @@ import { HiPencilAlt } from "react-icons/hi";
 
 
 // Maps
-import logo from "../assets/logo1.png";
+import logo from "../assets/hu_badge.png";
 import B507 from "../assets/loc/b507.png";
 import B508 from "../assets/loc/b508.png";
 import B509 from "../assets/loc/b509.png";

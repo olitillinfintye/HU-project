@@ -16,7 +16,7 @@ import { MdEmail, MdAddLocationAlt, MdCall } from "react-icons/md";
 import { BsFillBookmarkPlusFill, BsFillPeopleFill, BsPersonFill } from "react-icons/bs";
 import { FaWalking, FaSchool } from "react-icons/fa";                  //walking + School icon
 import { RiAddCircleFill, RiUploadCloud2Fill } from "react-icons/ri";                  //upload + Add icon 
-import logo from "../assets/logo1.png";
+import logo from "../assets/hu_badge.png";
 import student_badge from "../assets/badges/Student_badge.png";      //Teacher Badge
 
 

@@ -6,7 +6,7 @@ import ip from '../helpers/Config.js';
 import "../styles/SideBar.css";
 
 import menu_icon from "../assets/icons/bx-menu.png";       //menu icon
-import cube_icon from "../assets/logo1.png";       //astu logo
+import cube_icon from "../assets/hu_badge.png";       //astu logo
 import adobe_icon from "../assets/icons2/bxs-chat.png";       //discussion icon
 import discord_icon from "../assets/icons2/bxs-user-circle.png";       //Profile icon
 import dribble_icon from "../assets/icons2/bxs-dashboard.png";       //Dashboard icon
